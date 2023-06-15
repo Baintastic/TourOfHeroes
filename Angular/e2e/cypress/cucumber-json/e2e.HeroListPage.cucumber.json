@@ -22,8 +22,8 @@
             "line": 6,
             "name": "the user is on the hero list page",
             "result": {
-              "status": "undefined",
-              "duration": 63000000
+              "status": "passed",
+              "duration": 760000000
             }
           },
           {
@@ -32,7 +32,8 @@
             "line": 9,
             "name": "the user shall see the hero details after selecting a hero",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1048000000
             }
           }
         ]
@@ -51,7 +52,8 @@
             "line": 6,
             "name": "the user is on the hero list page",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 841000000
             }
           },
           {
@@ -60,7 +62,8 @@
             "line": 12,
             "name": "the user shall see the hero list decrease",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 705000000
             }
           }
         ]
@@ -79,7 +82,8 @@
             "line": 6,
             "name": "the user is on the hero list page",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 1112000000
             }
           },
           {
@@ -88,7 +92,8 @@
             "line": 15,
             "name": "the user shall see the hero list increase",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1091000000
             }
           }
         ]
@@ -107,7 +112,8 @@
             "line": 6,
             "name": "the user is on the hero list page",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 987000000
             }
           },
           {
@@ -116,35 +122,8 @@
             "line": 18,
             "name": "the user shall see the hero list remain the same",
             "result": {
-              "status": "skipped"
-            }
-          }
-        ]
-      },
-      {
-        "id": "herolistpage-functionality;as-a-toh-user,-i-want-clear-messages",
-        "keyword": "Scenario",
-        "line": 20,
-        "name": "As a toh user, I want clear messages",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 6,
-            "name": "the user is on the hero list page",
-            "result": {
-              "status": "undefined"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 21,
-            "name": "the user shall see meassages cleared",
-            "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 593000000
             }
           }
         ]

@@ -23,7 +23,7 @@
             "name": "the user is on the landing page",
             "result": {
               "status": "passed",
-              "duration": 1121000000
+              "duration": 793000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "the user is on the landing page",
             "result": {
               "status": "passed",
-              "duration": 522000000
+              "duration": 1580000000
             }
           },
           {
@@ -63,7 +63,7 @@
             "name": "the user shall see the top 4 Heroes",
             "result": {
               "status": "passed",
-              "duration": 478000000
+              "duration": 482000000
             }
           }
         ]
@@ -83,17 +83,17 @@
             "name": "the user is on the landing page",
             "result": {
               "status": "passed",
-              "duration": 271000000
+              "duration": 1077000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 15,
-            "name": "the user shall see the hero details after selecting a hero",
+            "name": "the user shall see the hero details from dashboard",
             "result": {
-              "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: '12 DR. NICE X Details' but never did.\n    at Context.eval (cypress/e2e/step-definitions/HeroListPage.spec.ts:11:5)"
+              "status": "passed",
+              "duration": 1121000000
             }
           }
         ]
@@ -113,7 +113,7 @@
             "name": "the user is on the landing page",
             "result": {
               "status": "passed",
-              "duration": 252000000
+              "duration": 3994000000
             }
           },
           {
@@ -123,7 +123,37 @@
             "name": "the user shall see all heroes",
             "result": {
               "status": "passed",
-              "duration": 571000000
+              "duration": 624000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "landingpage-functionality;as-a-toh-user,-i-want-clear-messages",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "As a toh user, I want clear messages",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 880000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the user shall see meassages cleared",
+            "result": {
+              "status": "passed",
+              "duration": 608000000
             }
           }
         ]

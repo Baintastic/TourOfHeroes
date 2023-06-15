@@ -12,8 +12,10 @@ Feature: LandingPage Functionality
         Then the user shall see the top 4 Heroes
 
     Scenario: As a toh user, I want to select a hero from the dashboard in order to see the hero details displayed
-        Then the user shall see the hero details after selecting a hero
+        Then the user shall see the hero details from dashboard
 
     Scenario: As a toh user, I want to navigate to heroes page in order to see all heroes
         Then the user shall see all heroes
 
+    Scenario: As a toh user, I want clear messages 
+        Then the user shall see meassages cleared

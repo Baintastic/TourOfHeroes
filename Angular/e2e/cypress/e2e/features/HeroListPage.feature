@@ -17,7 +17,6 @@ Feature: HeroListPage Functionality
     Scenario: As a toh user, I want to add a hero without a name in order to see the hero list remain the same
         Then the user shall see the hero list remain the same
         
-    Scenario: As a toh user, I want clear messages 
-        Then the user shall see meassages cleared
+
 
         
