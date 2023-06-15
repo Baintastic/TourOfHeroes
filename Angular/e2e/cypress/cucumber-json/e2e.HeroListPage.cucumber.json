@@ -1,0 +1,154 @@
+[
+  {
+    "description": "    This Feature tests hero list scenarios",
+    "keyword": "Feature",
+    "name": "HeroListPage Functionality",
+    "line": 1,
+    "id": "herolistpage-functionality",
+    "tags": [],
+    "uri": "HeroListPage.feature",
+    "elements": [
+      {
+        "id": "herolistpage-functionality;as-a-toh-user,-i-want-to-select-a-hero-from-the-list-of-heroes-in-order-to-see-the-hero-details-displayed",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "As a toh user, I want to select a hero from the list of heroes in order to see the hero details displayed",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the hero list page",
+            "result": {
+              "status": "undefined",
+              "duration": 63000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the user shall see the hero details after selecting a hero",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "herolistpage-functionality;as-a-toh-user,-i-want-to-remove-a-hero-in-order-to-see-the-hero-list-decrease",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "As a toh user, I want to remove a hero in order to see the hero list decrease",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the hero list page",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the user shall see the hero list decrease",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "herolistpage-functionality;as-a-toh-user,-i-want-to-add-a-hero-in-order-to-see-the-hero-list-increase",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "As a toh user, I want to add a hero in order to see the hero list increase",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the hero list page",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "the user shall see the hero list increase",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "herolistpage-functionality;as-a-toh-user,-i-want-to-add-a-hero-without-a-name-in-order-to-see-the-hero-list-remain-the-same",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "As a toh user, I want to add a hero without a name in order to see the hero list remain the same",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the hero list page",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the user shall see the hero list remain the same",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "herolistpage-functionality;as-a-toh-user,-i-want-clear-messages",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "As a toh user, I want clear messages",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the hero list page",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the user shall see meassages cleared",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
